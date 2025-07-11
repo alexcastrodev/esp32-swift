@@ -6,6 +6,15 @@ This project demonstrates how to use Swift to control an ESP32 microcontroller, 
 
 The ESP32 acts as a bridge between the Swift application and the Apple Home ecosystem, allowing for seamless integration of IoT devices.
 
+# History
+
+I Started with main.c that print temperatura and humidity from DHT11 sensor, then I added RGB LED control,
+
+
+And then (with main_apple_homekit.c) integrated with Apple HomeKit using Swift.
+
+Now, i am trying to use Swift Embedded ( RISC-V ) to run the code on the ESP32.
+
 # Building the Project
 
 ```bash
